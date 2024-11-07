@@ -1,0 +1,20 @@
+{
+  "name": "domino-backend",
+  "version": "1.0.0",
+  "description": "Backend for domino gaming",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gilliard Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3"
+  }
+}
